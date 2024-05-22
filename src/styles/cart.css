@@ -1,0 +1,62 @@
+
+.cart__details{
+  min-width: 80%;
+  margin: 35px auto;
+  margin-top: 7px;
+}
+.cart__row{
+  width: 100%;
+}
+
+/* Table outline */
+table {
+  border-collapse: collapse;
+  border: 1px solid #ddd; /* Border color */
+  /* width: 100%; */
+}
+
+/* Table row outline */
+table tr {
+  border-bottom: 1px solid #ddd; /* Border color */
+}
+
+/* Table head */
+table th {
+  padding: 25px 15px;
+  text-align: left;
+  /* background-color: #f2f2f2; */
+}
+
+/* Table body */
+table td {
+  padding: 15px 15px;
+  text-align: left;
+}
+
+/*  //////payement element */
+
+.cart__payment-details{
+  width: 90%;
+  outline: 1px solid #ddd;
+  margin-top: 5px;
+  
+}
+
+.payment__heading{
+  padding: 15px;
+  
+  font-size: 25px;
+  font-weight: 600;
+  background-color: #f7f7f7;
+  margin-bottom: 20px;
+}
+
+.cart__payment-details span{
+  width: 40%;
+  display: inline-block;
+  padding: 7px 10px;
+}
+
+.hr-dd {
+  border : 2px solid #ddd /* Change border color to #ddd */
+}

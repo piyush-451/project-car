@@ -1,0 +1,64 @@
+.dashboard__container{
+  width: 90%;
+  margin: 40px auto;
+  font-weight: 600;
+}
+
+.sidebar__container{
+  width: 90%;
+  margin-left: 75px;
+}
+
+.sidebar__item{
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #ccc;
+  margin: 0px 0px 15px 0px;
+  padding: 13px;
+  width: 90% ;
+  cursor: pointer;
+}
+
+
+/* accounts details */
+.account-details-container {
+  /* margin-top: 20px; */
+  margin-bottom: 20px;
+}
+
+.text-red {
+  color: red;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.btn-primary {
+  background-color: #ffc107;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #ffca28;
+}
+
+.password-input-group {
+  position: relative;
+}
+
+.toggle-password {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
